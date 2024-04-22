@@ -27,7 +27,7 @@ Y luego ejecutar:
 
 ### Problemas conocidos:
 
-- Atender al siguiente paciente, respetando el orden de prioridad. La función me permite atender al siguiente paciente, pero no por orden; está desordenado.
+- Atender al siguiente paciente, respetando el orden de prioridad. La función me permite atender al siguiente paciente, pero no por hora; está desordenado. 
 
 ### A mejorar:
 
@@ -58,7 +58,8 @@ El sistema registra a Gabriel con una prioridad inicial "Bajo" y guarda la hora 
 Tras una evaluación inicial, el médico determina que el estado de Gabriel requiere atención prioritaria.
 
 ```
-Ingrese su opción: 2 
+Ingrese su opción: 2
+Asignar prioridad paciente
 Ingrese el nombre del paciente: Gabriel
 Ingrese la nueva prioridad del paciente:
 1- Alta
@@ -76,6 +77,7 @@ El usuario revisa la lista de espera para ver todos los pacientes y sus priorida
 
 ```
 Ingrese su opción: 3
+Mostrar lista de espera
 Pacientes en espera: 
 Nombre paciente: Gabriel
 Edad paciente: 25
@@ -92,6 +94,7 @@ El usuario puede consultar la lista de pacientes filtrada por prioridad, mostran
 
 ```
 Ingrese su opción: 5
+Mostrar lista pacientes por prioridad
 Ingrese la prioridad, para mostrar los pacientes a los correspondientes
 1-Alta
 2-Media
@@ -112,7 +115,8 @@ Gabriel es llamado para ser atendido basándose en su prioridad.
 
 ```
 Ingrese su opción: 4
-Paciente atendido
+Atender siguiente paciente
+Paciente atendido:
 Nombre paciente: Gabriel
 Edad paciente: 25
 Sintomas paciente: Tos
