@@ -27,7 +27,8 @@ Y luego ejecutar:
 
 ### Problemas conocidos:
 
-- Atender al siguiente paciente, respetando el orden de prioridad. La función me permite atender al siguiente paciente, pero no por hora; está desordenado. 
+- Atender al siguiente paciente, respetando el orden de prioridad. La función me permite atender al siguiente paciente, pero no por hora; está desordenado.
+  Esto puede ocurrir por un ordenamiento inconsistente: Si la función de ordenamiento (lower_than) no está bien implementada o no se llama en el lugar adecuado, la lista podría no estar ordenada correctamente.
 
 ### A mejorar:
 
